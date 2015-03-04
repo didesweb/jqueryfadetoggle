@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<!-- Didesweb -->  
+<!-- Diseño y desarrollo web -->  
+<!-- http://didesweb.com/-->  
+<!-- Este obra está protegida bajo licencia Creative Commons Attribution --> 
+<html lang="es">
+<head>
+<title>Didesweb, fadeToggle()</title>
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+	<script>
+		$(document).ready(function(){
+			$("#boton").click(function(){
+				$("#elemento").fadeToggle("slow");
+			});
+		});
+	</script> 
+	<h1>Didesweb, mostrar y ocultar elementos con fadeToggle en jQuery</h1>
+	<button id="boton">Mostrar/Ocultar elemento</button>
+	<br>
+	<div id="elemento">
+		<p>Texto que se muestra y se oculta mendiante un evento</p>
+	</div>	
+</body>
+</html>
